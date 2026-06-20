@@ -1,0 +1,16 @@
+name cicd
+on:
+workflow-dispatch:
+jobs:
+ code:
+ runs-on:ubuntu-latest
+ steps:
+ - name: clone of the code
+ run:echo"clone the code"
+
+ test:
+ runs-on:ubuntu-latest
+  run:echo"test the code"
+ 
+ 
+ 
