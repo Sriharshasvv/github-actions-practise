@@ -1,5 +1,6 @@
-name cicd
-on:
+name: cicd
+
+on:    
 workflow-dispatch:
 jobs:
  code:
